@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dunder Mifflin Paper Company</title>
+  <meta name="description" content="Paper and office supplies for businesses across the Northeast, delivered by a salesperson who knows your name.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Libre+Franklin:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#catalog">Skip to products</a>
+
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="wordmark" href="#top" aria-label="Dunder Mifflin, home">
+        <span class="wm-top">Dunder Mifflin</span>
+        <span class="wm-sub">Paper Company, Inc.</span>
+      </a>
+      <nav aria-label="Main">
+        <a href="#about">Our story</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-phone" data-sales-phone-link hidden><span class="nav-phone-label">Sales</span> <span data-sales-phone-text></span></a>
+        <button type="button" class="cart-btn" data-cart-open aria-haspopup="dialog" aria-controls="cart">
+          <span>Order slip</span>
+          <span class="cart-count" data-cart-count>0</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="kicker"><span>Catalog</span> Fall 2026 &middot; Scranton, PA</p>
+          <h1>Limitless paper <em>in a paperless world.</em></h1>
+          <p class="lede">Copy paper, toner, envelopes and desk supplies for the offices, schools, law firms and town halls of the Northeast. Delivered from a local warehouse by a salesperson who knows your name.</p>
+          <div class="cta-row">
+            <a class="btn btn-ink" href="#catalog">Browse the catalog</a>
+            <a class="btn btn-line" href="#contact">Find your salesperson</a>
+          </div>
+          <p class="hero-phone" data-sales-phone-block hidden>Prefer to talk? Call sales at <a data-sales-phone-link><span data-sales-phone-text></span></a></p>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="sheet sheet-3"></div>
+          <div class="sheet sheet-2"></div>
+          <div class="slip">
+            <p class="slip-head"><span>Order slip</span><span>No. 1725</span></p>
+            <ul>
+              <li><span>Letter copy paper, case</span><b>$54.99</b></li>
+              <li><span>Color toner set</span><b>$249.99</b></li>
+              <li><span>Sticky notes 3&times;3, 12 pk</span><b>$12.99</b></li>
+            </ul>
+            <p class="slip-foot">Salesperson <span></span></p>
+          </div>
+          <div class="stamp"><span>Est.</span><b>Scranton</b><span>Pennsylvania</span></div>
+        </div>
+      </div>
+
+      <div class="ticker" aria-label="Branch towns">
+        <div class="ticker-track">
+          <span>Scranton</span><span>Stamford</span><span>Nashua</span><span>Utica</span><span>Akron</span><span>Camden</span><span>Yonkers</span><span>Albany</span><span>Buffalo</span><span>Rochester</span>
+          <span aria-hidden="true">Scranton</span><span aria-hidden="true">Stamford</span><span aria-hidden="true">Nashua</span><span aria-hidden="true">Utica</span><span aria-hidden="true">Akron</span><span aria-hidden="true">Camden</span><span aria-hidden="true">Yonkers</span><span aria-hidden="true">Albany</span><span aria-hidden="true">Buffalo</span><span aria-hidden="true">Rochester</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="story">
+      <div class="wrap story-grid">
+        <div class="story-label">
+          <span class="sec-no">01</span>
+          <h2>Service over scale</h2>
+        </div>
+        <div class="story-body">
+          <p class="pull">The big-box stores have scale. We have <em>Scranton.</em></p>
+          <p>Dunder Mifflin was founded by Robert Dunder and Robert Mifflin and grew into a paper and office-supply distributor headquartered in New York City, with branches across the Northeast. We compete the old-fashioned way: every customer has a named salesperson, every order ships from a local warehouse, and the relationship counts for as much as the price.</p>
+        </div>
+      </div>
+      <div class="wrap">
+        <dl class="ledger">
+          <div><dt>Products in stock</dt><dd>14</dd></div>
+          <div><dt>States served</dt><dd>6</dd></div>
+          <div><dt>Customer cities</dt><dd>18</dd></div>
+          <div><dt>Orders last quarter</dt><dd>337</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog">
+      <div class="wrap">
+        <div class="catalog-head">
+          <span class="sec-no">02</span>
+          <h2>The catalog</h2>
+          <p>Fourteen products, four departments. Prices are list price per unit.</p>
+        </div>
+      <section class="dept" aria-labelledby="dept-1">
+        <header class="dept-head">
+          <span class="dept-no">§1</span>
+          <h3 id="dept-1">Paper</h3>
+          <p>Copy, printer &amp; specialty stock</p>
+        </header>
+        <div class="items">
+          <article class="item" data-id="p01" data-name="Copy Paper - Letter 8.5x11 (Case, 10 reams)" data-price="54.99" data-unit="Case, 10 reams" data-stock="240">
+            <div class="tile t-white"><span class="spec" aria-hidden="true"><b>8½×11</b><i>Letter</i></span><span class="stamp-sm">Best seller</span></div>
+            <p class="item-no">No. 01</p>
+            <h4>Copy Paper - Letter 8.5x11</h4>
+            <p class="item-line"><span>Case, 10 reams</span><span class="leader" aria-hidden="true"></span><span class="price">$54.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Copy Paper - Letter 8.5x11 to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p02" data-name="Copy Paper - Legal 8.5x14 (Case, 10 reams)" data-price="64.99" data-unit="Case, 10 reams" data-stock="40">
+            <div class="tile t-white"><span class="spec" aria-hidden="true"><b>8½×14</b><i>Legal</i></span></div>
+            <p class="item-no">No. 02</p>
+            <h4>Copy Paper - Legal 8.5x14</h4>
+            <p class="item-line"><span>Case, 10 reams</span><span class="leader" aria-hidden="true"></span><span class="price">$64.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Copy Paper - Legal 8.5x14 to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p03" data-name="Premium Bright White Paper (Ream)" data-price="9.49" data-unit="Ream" data-stock="205">
+            <div class="tile t-white"><span class="spec" aria-hidden="true"><b>500</b><i>sheets</i></span></div>
+            <p class="item-no">No. 03</p>
+            <h4>Premium Bright White Paper</h4>
+            <p class="item-line"><span>Ream</span><span class="leader" aria-hidden="true"></span><span class="price">$9.49</span></p>
+            <button type="button" class="add-btn" aria-label="Add Premium Bright White Paper to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p04" data-name="Colored Paper Assorted (Ream)" data-price="11.99" data-unit="Ream" data-stock="115" data-img="../Product Images/ColoredReam.png">
+            <div class="tile tile--photo"><img src="../Product Images/ColoredReam.png" alt="Colored Paper Assorted (Ream)"></div>
+            <p class="item-no">No. 04</p>
+            <h4>Colored Paper Assorted</h4>
+            <p class="item-line"><span>Ream</span><span class="leader" aria-hidden="true"></span><span class="price">$11.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Colored Paper Assorted to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p05" data-name="Cardstock 110lb (Pack of 250)" data-price="21.99" data-unit="Pack of 250" data-stock="40">
+            <div class="tile t-white"><span class="spec" aria-hidden="true"><b>110</b><i>lb</i></span></div>
+            <p class="item-no">No. 05</p>
+            <h4>Cardstock 110lb</h4>
+            <p class="item-line"><span>Pack of 250</span><span class="leader" aria-hidden="true"></span><span class="price">$21.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Cardstock 110lb to cart">Add to cart</button>
+          </article>
+        </div>
+      </section>
+      <section class="dept" aria-labelledby="dept-2">
+        <header class="dept-head">
+          <span class="dept-no">§2</span>
+          <h3 id="dept-2">Toner &amp; Ink</h3>
+          <p>Few units, big impact</p>
+        </header>
+        <div class="items">
+          <article class="item" data-id="p06" data-name="Black Toner Cartridge" data-price="89.99" data-unit="Each" data-stock="55">
+            <div class="tile t-blue"><span class="spec" aria-hidden="true"><b>K</b><i>toner</i></span></div>
+            <p class="item-no">No. 06</p>
+            <h4>Black Toner Cartridge</h4>
+            <p class="item-line"><span>Each</span><span class="leader" aria-hidden="true"></span><span class="price">$89.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Black Toner Cartridge to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p07" data-name="Color Toner Cartridge Set" data-price="249.99" data-unit="Each" data-stock="35" data-img="../Product Images/Cartradge.png">
+            <div class="tile tile--photo"><img src="../Product Images/Cartradge.png" alt="Color Toner Cartridge Set"><span class="stamp-sm">Best seller</span></div>
+            <p class="item-no">No. 07</p>
+            <h4>Color Toner Cartridge Set</h4>
+            <p class="item-line"><span>Each</span><span class="leader" aria-hidden="true"></span><span class="price">$249.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Color Toner Cartridge Set to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p08" data-name="Inkjet Cartridge Black" data-price="32.99" data-unit="Each" data-stock="35">
+            <div class="tile t-blue"><span class="spec" aria-hidden="true"><b>K</b><i>inkjet</i></span></div>
+            <p class="item-no">No. 08</p>
+            <h4>Inkjet Cartridge Black</h4>
+            <p class="item-line"><span>Each</span><span class="leader" aria-hidden="true"></span><span class="price">$32.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Inkjet Cartridge Black to cart">Add to cart</button>
+          </article>
+        </div>
+      </section>
+      <section class="dept" aria-labelledby="dept-3">
+        <header class="dept-head">
+          <span class="dept-no">§3</span>
+          <h3 id="dept-3">Mailing</h3>
+          <p>Envelopes &amp; labels</p>
+        </header>
+        <div class="items">
+          <article class="item" data-id="p09" data-name="#10 Business Envelopes (Box of 500)" data-price="24.99" data-unit="Box of 500" data-stock="95" data-img="../Product Images/envelopebox.png">
+            <div class="tile tile--photo"><img src="../Product Images/envelopebox.png" alt="#10 Business Envelopes (Box of 500)"></div>
+            <p class="item-no">No. 09</p>
+            <h4>#10 Business Envelopes</h4>
+            <p class="item-line"><span>Box of 500</span><span class="leader" aria-hidden="true"></span><span class="price">$24.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add #10 Business Envelopes to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p10" data-name="9x12 Manila Envelopes (Box of 100)" data-price="18.49" data-unit="Box of 100" data-stock="45">
+            <div class="tile t-manila"><span class="spec" aria-hidden="true"><b>9×12</b><i>manila</i></span></div>
+            <p class="item-no">No. 10</p>
+            <h4>9x12 Manila Envelopes</h4>
+            <p class="item-line"><span>Box of 100</span><span class="leader" aria-hidden="true"></span><span class="price">$18.49</span></p>
+            <button type="button" class="add-btn" aria-label="Add 9x12 Manila Envelopes to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p11" data-name="Shipping Labels (Box of 3000)" data-price="39.99" data-unit="Box of 3000" data-stock="30" data-img="../Product Images/labelsbox.jpg">
+            <div class="tile tile--photo"><img src="../Product Images/labelsbox.jpg" alt="Shipping Labels (Box of 3000)"></div>
+            <p class="item-no">No. 11</p>
+            <h4>Shipping Labels</h4>
+            <p class="item-line"><span>Box of 3000</span><span class="leader" aria-hidden="true"></span><span class="price">$39.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Shipping Labels to cart">Add to cart</button>
+          </article>
+        </div>
+      </section>
+      <section class="dept" aria-labelledby="dept-4">
+        <header class="dept-head">
+          <span class="dept-no">§4</span>
+          <h3 id="dept-4">Desk &amp; Filing</h3>
+          <p>The everyday essentials</p>
+        </header>
+        <div class="items">
+          <article class="item" data-id="p12" data-name="Manila File Folders (Box of 100)" data-price="15.99" data-unit="Box of 100" data-stock="70">
+            <div class="tile t-yellow"><span class="spec" aria-hidden="true"><b>100</b><i>folders</i></span></div>
+            <p class="item-no">No. 12</p>
+            <h4>Manila File Folders</h4>
+            <p class="item-line"><span>Box of 100</span><span class="leader" aria-hidden="true"></span><span class="price">$15.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Manila File Folders to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p13" data-name="Legal Pads Yellow (12 pack)" data-price="16.49" data-unit="12 pack" data-stock="105">
+            <div class="tile t-yellow"><span class="spec" aria-hidden="true"><b>12</b><i>pads</i></span></div>
+            <p class="item-no">No. 13</p>
+            <h4>Legal Pads Yellow</h4>
+            <p class="item-line"><span>12 pack</span><span class="leader" aria-hidden="true"></span><span class="price">$16.49</span></p>
+            <button type="button" class="add-btn" aria-label="Add Legal Pads Yellow to cart">Add to cart</button>
+          </article>
+          <article class="item" data-id="p14" data-name="Sticky Notes 3x3 (12 pack)" data-price="12.99" data-unit="12 pack" data-stock="325" data-img="../Product Images/stickynotes.jpg">
+            <div class="tile tile--photo"><img src="../Product Images/stickynotes.jpg" alt="Sticky Notes 3x3 (12 pack)"><span class="stamp-sm">Best seller</span></div>
+            <p class="item-no">No. 14</p>
+            <h4>Sticky Notes 3x3</h4>
+            <p class="item-line"><span>12 pack</span><span class="leader" aria-hidden="true"></span><span class="price">$12.99</span></p>
+            <button type="button" class="add-btn" aria-label="Add Sticky Notes 3x3 to cart">Add to cart</button>
+          </article>
+        </div>
+      </section>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="envelope">
+    <div class="airmail" aria-hidden="true"></div>
+    <div class="wrap env-grid">
+      <div class="env-from">
+        <p class="env-label">From the desk of</p>
+        <p class="wordmark wordmark--light"><span class="wm-top">Dunder Mifflin</span><span class="wm-sub">Paper Company, Inc.</span></p>
+        <p class="env-note">Paper and office supplies for the Northeast since the days of carbon copies.</p>
+      </div>
+      <div class="env-to">
+        <p class="env-label">Scranton Branch</p>
+        <address>1725 Slough Avenue<br>Scranton Business Park<br>Scranton, PA</address>
+        <div class="env-call" data-sales-phone-block hidden>
+          <p class="env-label">Call sales</p>
+          <a class="env-call-num" data-sales-phone-link><span data-sales-phone-text></span></a>
+          <p class="env-call-note">Ask for your salesperson by name.</p>
+        </div>
+      </div>
+      <div class="env-branches">
+        <p class="env-label">Branches</p>
+        <p>Scranton &middot; Stamford &middot; Nashua &middot; Utica &middot; Akron &middot; Camden &middot; Yonkers &middot; Albany &middot; Buffalo &middot; Rochester</p>
+        <p class="env-hq">Corporate headquarters: New York City</p>
+      </div>
+    </div>
+    <div class="wrap env-legal">&copy; 2026 Dunder Mifflin Paper Company, Inc.</div>
+  </footer>
+
+  <!-- Cart: an order slip that slides in from the right. Built by cart.js. -->
+  <div class="cart-scrim" data-cart-close hidden></div>
+  <aside id="cart" class="cart" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+    <header class="cart-head">
+      <div>
+        <p class="cart-kicker">Order slip <span data-slip-no></span></p>
+        <h2 id="cart-title">Your order</h2>
+      </div>
+      <button type="button" class="cart-x" data-cart-close aria-label="Close order slip">&times;</button>
+    </header>
+
+    <div class="cart-view" data-view="items">
+      <p class="cart-empty" data-cart-empty>Your slip is empty. Add something from the catalog.</p>
+      <ul class="cart-lines" data-cart-lines></ul>
+      <div class="cart-foot" data-cart-foot>
+        <p class="cart-total"><span>Subtotal</span><span class="leader" aria-hidden="true"></span><b data-cart-subtotal>$0.00</b></p>
+        <p class="cart-note">No payment is taken online. Your salesperson confirms pricing, delivery and billing.</p>
+        <button type="button" class="btn btn-ink btn-block" data-go="details">Continue to order request</button>
+        <button type="button" class="cart-clear" data-cart-clear>Clear slip</button>
+      </div>
+    </div>
+
+    <form class="cart-view cart-form" data-view="details" hidden novalidate>
+      <button type="button" class="cart-back" data-go="items">&larr; Back to slip</button>
+      <p class="cart-summary" data-cart-summary></p>
+      <label>Name<input name="name" autocomplete="name" required></label>
+      <label>Company<input name="company" autocomplete="organization"></label>
+      <label>Email<input name="email" type="email" autocomplete="email" required></label>
+      <label>Phone <span class="opt">(optional, if you'd like a call back)</span><input name="phone" type="tel" autocomplete="tel"></label>
+      <label>Delivery notes <span class="opt">(optional)</span><textarea name="notes" rows="3"></textarea></label>
+      <p class="form-error" data-form-error hidden></p>
+      <button type="submit" class="btn btn-ink btn-block">Submit order request</button>
+      <p class="cart-note">No payment needed now.</p>
+    </form>
+
+    <div class="cart-view cart-done" data-view="done" hidden>
+      <div class="stamp stamp--done" aria-hidden="true"><span>Order slip</span><b>Ready</b><span>Scranton</span></div>
+      <h3>Thanks, <span data-done-name></span>.</h3>
+      <p data-done-msg></p>
+      <p class="cart-phone" data-sales-phone-block hidden>Questions? Call sales at <a data-sales-phone-link><span data-sales-phone-text></span></a></p>
+      <button type="button" class="btn btn-line btn-block" data-print>Print order slip</button>
+      <button type="button" class="btn btn-ink btn-block" data-cart-close>Back to the catalog</button>
+    </div>
+  </aside>
+
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <script src="cart.js"></script>
+</body>
+</html>
